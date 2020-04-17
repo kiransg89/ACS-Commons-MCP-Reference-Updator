@@ -10,11 +10,11 @@ MCP is developed on throttled scheduler concept
 
 https://github.com/Adobe-Consulting-Services/acs-aem-commons/blob/master/bundle/src/main/java/com/adobe/acs/commons/fam/ThrottledTaskRunner.java
 
-Copy the Reference Updator file into package
+- Copy the Reference Updator file into package
 
-Make following changes to current module POM.xml
+- Make following changes to current module POM.xml
 
-Plugins to have import packages as mentioned below:
+- Plugins to have `import packages` as mentioned below:
 
 ```
 <plugins>
@@ -123,11 +123,11 @@ Provide the Replace String to be replace        -> Any text to be replaced
 Please select the oprporiate option to execute" -> Generate Report before Exection
 ```
 
-# Uses:
+## Uses:
 
 - Whenever we want to bulk update properties
 - Whenever bulk updating text inside RTE
 
-# Use this tol with precaution because this can introduce performance issue when run multiple times 
+## Use this tool with precaution because this can introduce performance issue when run multiple times 
 
-## Can be used to generate reports on daily basis
+# Can be used to generate reports on daily basis
