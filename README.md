@@ -127,6 +127,7 @@ Please select the oprporiate option to execute" -> Generate Report before Execti
 
 - Whenever we want to bulk update properties
 - Whenever bulk updating text inside RTE
+- Bulk Updating reference links
 
 ## Use this tool with precaution because this can introduce performance issue when run multiple times 
 
